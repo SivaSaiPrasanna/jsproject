@@ -1,0 +1,43 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    
+}
+input,button{
+    font-size:16px;
+    padding:10px;
+}
+button:hover{
+    cursor:pointer;
+}
+ul{
+    list-style-type:none;
+    padding:0;
+    width:100%;
+    max-width:600px;
+}
+li{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px;
+    background-color:#8cd0f7;
+    border:3px solid pink;
+    margin-bottom:10px;
+}
+
+.complete{
+    text-decoration: line-through;
+    color:black;
+}
+.task-button{
+    display:flex;
+    gap:10px;
+}
+.task-button button{
+    padding:5px 10px;
+    color: rgb(14, 14, 13);
+    background-color: rgb(169, 233, 195);
+}
